@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GlobalStyle from './assets/theme/globalStyle';
+import App from './pages/App';
+import 'antd/dist/antd.css';
+import './index.scss';
 
 const rootDirectory = document.getElementById('root');
 
 ReactDOM.render(
   <>
-    <GlobalStyle />
-    <span>Hello World!</span>
+    <App />
   </>,
-  rootDirectory
+  rootDirectory,
 );
