@@ -35,7 +35,7 @@ const App = () => {
         </Tabs>
       )}
       {isTabletOrMobile() && (
-        <Collapse activeKey={[activeTab]} onChange={onTabChange}>
+        <Collapse activeKey={activeTab} onChange={onTabChange}>
           {sampleData.length > 0 && sampleData.map(({ title, content }, index) => (
             <Panel header={title} key={index}>
               <>{content}</>
