@@ -42,8 +42,8 @@ const ImageCard = styled.div`
   }
 
   @media screen and (max-width: 450px) {
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
   }
 `;
 

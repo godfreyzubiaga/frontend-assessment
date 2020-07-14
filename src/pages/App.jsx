@@ -44,13 +44,7 @@ const CardContainer = styled.div`
   justify-content: space-evenly;
   place-items: center;
   padding: 30px 0;
-
-  @media screen and (max-width: 1400px) {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-  }
+  flex-wrap: wrap;
 `;
 
 const sampleData = [
